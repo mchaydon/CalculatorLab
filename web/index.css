@@ -11,7 +11,8 @@ and open the template in the editor.
 */
 
 html {
-    background-color: cyan;
+    background-image: url("background.png");
+    font-family: 'Roboto', sans-serif;
 }
 
 .centerContainer {
@@ -25,8 +26,12 @@ html {
     margin-left: auto;
     margin-right: auto;
     align-content: center;
-    width: 50%;
+    width: 75%;
     background-color: whitesmoke;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 5px;
+    border-color: #d96f1b;
 }
 
 main {
@@ -35,25 +40,46 @@ main {
 }
 
 header {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    align-content: center;
+    padding-left: 2em;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 1em;
 }
 
 .rectangle {
-    border: 1px solid black;
     width: 20em;
     height: 10em;
-    background-color: white;
     margin: 2em;
     float:left;
+    background-image: url("rect.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .rectangleContainer {
     align-content: center;
     margin: auto;
-    width: 30em;
+    width: 31em;
     height: 20em;
+    padding-top: 2.5em;
     text-align: center;
+}
+
+.infoContainer {
+    background-color:white;
+    border-radius: 1em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    border: 1px solid #dcdcdc;
+}
+
+.successContainer {
+    background-color: #e1faea;
+    border-radius: 1em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    border: 1px solid #acbeb2;
 }

@@ -19,10 +19,14 @@
 <body>
     <div class="centerContainer">
         <header>
-            <h2>Calendar Lab</h2>
+            <h2>Calculator Lab</h2>
         </header>
         <main>
-            <p>${area}</p>
+            <div class="successContainer">
+                <h4>Results</h4>
+                <p>${area}</p>
+                <a href="index.html">Start over</a>
+            </div>
         </main>
     </div>
 </body>
