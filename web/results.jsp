@@ -24,7 +24,7 @@
         <main>
             <div class="successContainer">
                 <h4>Results</h4>
-                <p>${area}</p>
+                <p>The area of your rectangle is ${area} square feet</p>
                 <a href="index.html">Start over</a>
             </div>
         </main>

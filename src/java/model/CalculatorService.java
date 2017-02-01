@@ -12,6 +12,6 @@ package model;
 public class CalculatorService {
     public final String calculateRectangleArea(String length, String width)
     {
-        return "The area of your rectangle is " + (Integer.parseInt(length) * Integer.parseInt(width)) + " square feet";
+        return String.valueOf(Integer.parseInt(length) * Integer.parseInt(width));
     }
 }
