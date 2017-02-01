@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : Jan 24, 2017, 9:04:39 PM
+    Author     : Mike
+*/
+
+html {
+    background-color: cyan;
+}
+
+.centerContainer {
+    box-shadow: 1em 0 15px -4px rgba(0, 0, 0, 0.1), -1em 0 8px -4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.rectangle {
+    border: 1px solid black;
+    width: 20em;
+    height: 10em;
+    background-color: white;
+    margin: 2em;
+    float:left;
+}
+
+.rectangleContainer {
+    align-content: center;
+    margin: auto;
+    width: 30em;
+    height: 20em;
+    text-align: center;
+}
